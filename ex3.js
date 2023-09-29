@@ -1,5 +1,7 @@
-let myArray=[];
+let myTasks = [];
 
-let addTask=(task)=>{
-
+let addTasks=(task) => {
+myTasks.push(task);
+console.log("Item" + task + "has been added to Tasks");
 }
+
