@@ -17,7 +17,7 @@ let test = (myValue)=>{
 
 test("bonjour");
 
-const DataRep=()=> {
+const DataRep=()=> {//data rep arrow function, prints data rep & querying to console.
     console.log ("Data Repersentation & Querying");
 }
 DataRep();
