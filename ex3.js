@@ -7,7 +7,19 @@ return length;
 }
 
 let listAllTasks = ()=>{
-    myTasks.length;
+    myTasks.forEach((item)=>{
+console.log(item);
+    
+});
 }
+
+addTasks("Learn JS!");
+listAllTasks();
+
+
+ deleteTask=()=>{
+     let index = myTasks.indexOf(task);
+     myTasks.splice(index,1);
+ }
 
 
