@@ -17,7 +17,6 @@ let test = (myValue)=>{
 
 test("bonjour");
 
-//q2.
 const DataRep=()=> {
     console.log ("Data Repersentation & Querying");
 }
